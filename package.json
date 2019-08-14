@@ -1,0 +1,27 @@
+{
+  "name": "10-practical-js-features",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (https://kentcdodds.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-kentcdodds": "^14.3.4",
+    "prettier": "^1.18.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "kentcdodds"
+    ],
+    "rules": {
+      "no-unused-vars": "off",
+      "object-shorthand": "off",
+      "prefer-template": "off",
+      "no-useless-concat": "off",
+      "prefer-rest-params": "off",
+      "func-names": "off",
+      "no-console": "off"
+    }
+  }
+}
